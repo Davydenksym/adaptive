@@ -253,7 +253,7 @@ main {
 }
 
 .aod {
-  padding: calc(30px + 94 * (100vw - 320px) / 1280) 0;
+  padding: calc(30px + 94 * (100vw - 320px) / 1280) 0 calc(15px + 53 * (100vw - 320px) / 1280);
 }
 .aod__paragraph {
   margin: 0 calc(15px + 15 * (100vw - 320px) / 1280) calc(45px + 59 * (100vw - 320px) / 1280);

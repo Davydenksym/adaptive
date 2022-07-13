@@ -326,9 +326,8 @@ main {
   height: calc(46px + 23 * (100vw - 320px) / 1280);
   border: 1px solid #d3d7d9;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   font-style: italic;
-  color: #929292;
 }
 .enter-email__button {
   width: calc(69px + 57 * (100vw - 320px) / 1280);

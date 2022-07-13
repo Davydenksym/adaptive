@@ -203,6 +203,9 @@ main {
 .columns__big-column {
   flex: 1 1 66.667%;
 }
+.columns__small-column {
+  flex: 1 1 33.333%;
+}
 .columns__background {
   background-repeat: no-repeat;
   background-size: cover;
@@ -212,24 +215,21 @@ main {
   justify-content: center;
   align-items: center;
 }
-.columns__background--with-logo, .columns__background--full {
+.columns__background--full {
   height: 100%;
 }
 @media (max-width: 1023.98px) {
-  .columns__background--with-logo, .columns__background--full {
+  .columns__background--full {
     padding: 18.755% 0;
   }
 }
 .columns__background--small {
-  padding-top: 37.51%;
+  padding-bottom: 37.51%;
 }
 @media (max-width: 1023.98px) {
   .columns__background--small {
     display: none;
   }
-}
-.columns__small-column {
-  flex: 1 1 33.333%;
 }
 .columns__paragraph {
   padding: calc(30px + 40 * (100vw - 320px) / 1280);

@@ -85,7 +85,7 @@ main {
 
 .header {
   padding: calc(30px + 5 * (100vw - 320px) / 1280) 0 0;
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../img/header/bg.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -103,13 +103,17 @@ main {
   }
 }
 .menu__list a {
-  display: inline-block;
   padding: calc(10px + 5 * (100vw - 320px) / 1280) calc(30px + 5 * (100vw - 320px) / 1280);
   font-size: 13px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #4d4959;
+}
+@media (max-width: 767.68px) {
+  .menu__list a {
+    display: inline-block;
+  }
 }
 .menu__list img {
   margin: 0 25px;

@@ -92,17 +92,18 @@ main {
   background-size: cover;
   background-attachment: fixed;
 }
-.menu__item {
+.menu__list {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (max-width: 767.68px) {
-  .menu__item {
+  .menu__list {
     flex-direction: column;
   }
 }
-.menu__link {
+.menu__list a {
+  display: inline-block;
   padding: calc(10px + 5 * (100vw - 320px) / 1280) calc(30px + 5 * (100vw - 320px) / 1280);
   font-size: 13px;
   line-height: 1.2;
@@ -110,11 +111,11 @@ main {
   letter-spacing: 0.2em;
   color: #4d4959;
 }
-.menu__logo {
+.menu__list img {
   margin: 0 25px;
 }
 @media (max-width: 767.68px) {
-  .menu__logo {
+  .menu__list img {
     display: none;
   }
 }
